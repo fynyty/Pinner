@@ -43,6 +43,8 @@ GEM
     arel (8.0.0)
     autoprefixer-rails (7.1.4)
       execjs
+    aws-sdk (1.67.0)
+      aws-sdk-v1 (= 1.67.0)
     aws-sdk-v1 (1.67.0)
       json (~> 1.4)
       nokogiri (~> 1)
@@ -205,6 +207,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  aws-sdk (< 2.0)
   aws-sdk-v1
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
