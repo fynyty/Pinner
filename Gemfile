@@ -18,7 +18,7 @@ gem 'devise', '~> 4.3'
 #gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
 #gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 #gem 'bcrypt', platforms: :ruby
-gem 'paperclip', '~> 5.1'
+gem "paperclip", '= 4.3.6'
 gem 'aws-sdk-v1'#, '~> 3.0', '>= 3.0.1'
 gem 'aws-sdk', '< 2.0'
 group :development, :test do
