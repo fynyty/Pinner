@@ -20,7 +20,7 @@ gem 'devise', '~> 4.3'
 #gem 'bcrypt', platforms: :ruby
 gem 'paperclip', '~> 5.1'
 gem 'aws-sdk-v1'#, '~> 3.0', '>= 3.0.1'
-gem 'aws-sdk'
+#gem 'aws-sdk'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
